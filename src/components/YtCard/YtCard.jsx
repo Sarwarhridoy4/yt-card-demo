@@ -2,11 +2,11 @@ import thumbnail from "../../assets/thumbnail.jpg";
 
 const YtCard = () => {
   return (
-    <div className='bg-white dark:bg-slate-900 text-white flex flex-col max-w-sm'>
+    <div className='bg-white dark:bg-slate-900 text-black dark:text-white flex flex-col max-w-sm'>
       <div className='w-full rounded-lg'>
         <img src={thumbnail} alt='thumbnaail' className='w-full rounded-lg' />
       </div>
-      <div className='text-white p-2 flex gap-4 my-4'>
+      <div className='text-black dark:text-white p-2 flex gap-4 my-4'>
         <div>
           <img
             src='https://randomuser.me/api/portraits/men/32.jpg'
@@ -15,7 +15,7 @@ const YtCard = () => {
           />
         </div>
               <div>
-                  <h3 className="text-white text-2xl">Demo Title</h3>
+                  <h3 className="text-black dark:text-white text-2xl">Demo Title</h3>
                   <p className="text-slate-500">channel Name</p>
                   <div className="flex gap-3">
                       <span>
