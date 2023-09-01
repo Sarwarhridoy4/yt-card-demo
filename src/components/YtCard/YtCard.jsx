@@ -2,7 +2,7 @@ import thumbnail from "../../assets/thumbnail.jpg";
 
 const YtCard = () => {
   return (
-    <div className='bg-white dark:bg-slate-900 text-white flex flex-col'>
+    <div className='bg-white dark:bg-slate-900 text-white flex flex-col max-w-sm'>
       <div className='w-full rounded-lg'>
         <img src={thumbnail} alt='thumbnaail' className='w-full rounded-lg' />
       </div>
